@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+  	
+	<title>KadMad / Diseñador</title>
+</head>
+<body>
+<div class="cd-product-builder">
+	<header class="main-header">
+		<h1>Diseña como quieres ver</h1>
+		
+		<nav class="cd-builder-main-nav disabled">
+			<ul>
+				<li class="active"><a href="#models">Modelos</a></li>
+				<li><a href="#colors">Colores</a></li>
+				<li><a href="#accessories">Accesorios</a></li>
+				<li><a href="#summary">Sumario</a></li>
+			</ul>
+		</nav>
+
+		<!-- <a href="https://codyhouse.co/?p=16220" class="cd-nugget-info hide-on-mobile">Article &amp; Download</a> -->
+	</header>
+
+	<div class="cd-builder-steps">
+		<ul>
+			<li data-selection="models" class="active builder-step">
+				<section class="cd-step-content">
+					<header>
+						<h1>Seleccione el modelo</h1>
+						<span class="steps-indicator">Paso <b>1</b> de 4</span>
+					</header>
+
+					<a href="https://codyhouse.co/?p=16220" class="cd-nugget-info hide-on-desktop">Article &amp; Download</a>
+
+					<ul class="models-list options-list cd-col-2">
+						<li class="js-option js-radio" data-price="124000" data-model="product-01">
+							<span class="name">BAIA – Black Classical</span>
+							<img src="img/glass_8.jpg" alt="BAIA – Black Classical">
+							<span class="price">Desde $124.000</span>
+							<div class="radio"></div>
+						</li>
+
+						<li class="js-option js-radio" data-price="154000" data-model="product-02">
+							<span class="name">BAIA – Carey Sky</span>
+							<img src="img/glass_1.jpg" alt="BLUE AND WHITE – BAIA – Carey Sky">
+							<span class="price">Desde $154.000</span>
+							<div class="radio"></div>
+						</li>
+
+						<!-- <li class="js-option js-radio" data-price="124000" data-model="product-03">
+							<span class="name">BAIA – Carey Classical</span>
+							<img src="img/glass_7.jpg" alt="BAIA – Carey Classical">
+							<span class="price">Desde $124.000</span>
+							<div class="radio"></div>
+						</li> -->
+					</ul>
+				</section>
+			</li>
+			<!-- additional content will be inserted using ajax -->
+		</ul>
+	</div>
+
+	<footer class="cd-builder-footer disabled step-1">
+		<div class="selected-product">
+			<img src="img/product01_col01.jpg" alt="Product preview">
+
+			<div class="tot-price">
+				<span>Total</span>
+				<span class="total">$<b>0</b></span>
+			</div>
+		</div>
+		
+		<nav class="cd-builder-secondary-nav">
+			<ul>
+				<li class="next nav-item">
+					<ul>
+						<li class="visible"><a href="#0">Colores</a></li>
+						<li><a href="#0">Accesorios</a></li>
+						<li><a href="#0">Sumario</a></li>
+						<li class="buy"><a href="#0">Comprar</a></li>
+					</ul>
+				</li>
+				<li class="prev nav-item">
+					<ul>
+						<li class="visible"><a href="#0">Modelos</a></li>
+						<li><a href="#0">Modelos</a></li>
+						<li><a href="#0">Colores</a></li>
+						<li><a href="#0">Accesorios</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+
+		<span class="alert">Selecciona un modelo, por favor!</span>
+	</footer>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
